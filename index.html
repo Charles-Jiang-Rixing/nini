@@ -2,15 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>nini生日专属</title>
+    <title>nini生日专属~</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-      body{
-        background-image: url("background.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        background-size: cover;
+      body {
+        background-color: #8FBC8F;
+      }
 
       h1 {
         font: Arial;
@@ -19,27 +16,35 @@
       }
 
       div {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
-        width: 90%;
-        display: grid;
-        gap: 3%;
-        grid-template-areas: 
-        " a b"
-        " c d"
-        " e f";
       }
+
+      .photo {
+        margin-bottom: 8%;
+      }
+
+      a:hover {
+        background-color: orange;
+      }
+
     </style>
   </head>
   <body>
-    <h1>nini生日快乐!</h1>
+    <h1><a>nini生日快乐!</a></h1>
     <div>
-        <img src ='photo1.jpeg' width="200" height="auto" class="a">
-        <img src ='photo2.jpeg' width="200" height="auto" class="b">
-        <img src ='photo3.jpeg' width="200" height="auto" class="c">
-        <img src ='photo4.jpeg' width="200" height="auto" class="d">
-        <img src ='photo5.jpeg' width="200" height="auto" class="e">
-        <img src ='photo6.jpeg' width="200" height="auto" class="f">
+        <img src ='photo1.jpeg' class="photo">
+        <img src ='photo2.jpeg' class="photo">
+        <img src ='photo3.jpeg' class="photo">
+        <img src ='photo4.jpeg' class="photo">
+        <img src ='photo5.jpeg' class="photo">
+        <img src ='photo9.jpeg' class="photo">
+        <img src ='photo6.jpeg' class="photo">
+        <img src ='photo7.jpeg' class="photo">
+        <img src ='photo8.jpeg' class="photo">
     </div>
   </body>
 </html>
